@@ -2,6 +2,7 @@ pipeline {
 
   environment {
     registry = "iimohii/justme/myweb"
+    registryCredential = 'DockerHub'
     dockerImage = ""
   }
 
